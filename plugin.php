@@ -8,7 +8,7 @@ class Hochkant extends KokenPlugin {
       }
 
       public function render() {
-        console.log('test');
+        alert('test');
       }
 
 }
