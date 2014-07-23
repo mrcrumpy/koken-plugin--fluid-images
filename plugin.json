@@ -1,0 +1,9 @@
+{ 
+  "name": "hochkant-blogbilder",
+  "version": "1.0",
+  "description": "Stellt 2 hochkantbilder die nacheinander in einem blogeintrag stehen nebeneinander dar.",
+  "author": {
+    "name": "Daniel Crump",
+    "link": "http://crumpy.de"
+  }
+}
