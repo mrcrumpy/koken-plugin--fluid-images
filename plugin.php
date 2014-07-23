@@ -4,12 +4,11 @@ class Hochkant extends KokenPlugin {
 
     public function __construct() {
         $this->require_setup = true;
-        $this->register_filter('site.output', 'render');
+        $this->register_filter('api.content', 'render');
       }
 
-      public function render($content) {
-        console.log($content);
-        return $content;
+      public function render() {
+        console.log('test');
       }
 
 }
