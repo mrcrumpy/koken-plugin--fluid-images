@@ -12,5 +12,4 @@ class Hochkant extends KokenPlugin {
         return $content;
       }
 
-
 }
