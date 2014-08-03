@@ -1,9 +1,26 @@
-{ 
-  "name": "hochkant-blogbilder",
-  "version": "1.0",
-  "description": "Stellt 2 hochkantbilder die nacheinander in einem blogeintrag stehen nebeneinander dar.",
-  "author": {
-    "name": "Daniel Crump",
-    "link": "http://crumpy.de"
-  }
+{
+    "name": "Insert (floating) images",
+    "version": "1.0",
+    "description": "Insert (floating) images at half size into essays.",
+    "author": {
+        "name": "Daniel Crump",
+        "link": "http://crumpy.de"
+    },
+    "shortcodes": {
+		"mherbst_thumbs": {
+			"icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAAAeklEQVQ4T6WOAQ6AIAwDiX/k/0+ZKzKpWIiLTc6Mbm0sZvYLaWaQZgZpMrVWW1EgFWJwqNT9UeA6rr773eZMAT4vdgW+94tNOGBF4aMAYFTwH2BmXH4xCqBm9neb6XhfsGIOMdjLEKOCAfYyxKhggL0MZZBmBml+x8oJv8WleXpoaCUAAAAASUVORK5CYII",
+			"media": "photo",
+			"supports_linking": true,
+			"title": "Insert (floating) image",
+			"description": "Select one item.",
+		}
+	},
+
+    "data" : {
+		"default_css" : {
+			"label" : "Default CSS class",
+			"info" : "This CSS class will be applied to all images if not other class is specified",
+			"type" : "string"
+		}
+    }
 }
